@@ -14,7 +14,7 @@ les difficultés rencontrées et les vérifications réalisées.
 | [Debian et SSH](debian-ssh/README.md) | Configuration réseau et administration à distance |
 | [Arch Linux](arch-linux/README.md) | Installation manuelle, configuration du système et dépannage du stockage |
 | [Gentoo](gentoo/README.md) | Préparation du système, configuration de Portage et découverte d’OpenRC |
-| Timeshift | Création d’instantanés et étude de la restauration |
+| [Timeshift](timeshift/README.md) | Configuration des instantanés système et préparation de la restauration |
 
 Les comptes rendus sont ajoutés progressivement.
 
