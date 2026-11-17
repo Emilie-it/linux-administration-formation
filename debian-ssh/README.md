@@ -207,7 +207,7 @@ La relecture a également permis de corriger plusieurs confusions :
 client et serveur SSH, compte local et compte distant,
 adresse d’écoute et filtrage, connexion perdue et inactivité.
 
-La validation finale de l’authentification a été effectué avec succès.
+La validation finale de l’authentification a été effectuée avec succès.
 
 ## Documentation de référence
 
