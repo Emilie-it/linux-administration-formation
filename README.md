@@ -1,41 +1,38 @@
-# Administration Linux — TP de formation TSSR
+# Administration Linux
 
-Ce dépôt rassemble mes travaux pratiques Linux réalisés dans le cadre
-de ma formation TSSR en alternance.
+Ce dépôt rassemble mes travaux d’installation, de configuration
+et d’administration de systèmes Linux.
 
-J’y présente les objectifs des exercices, les manipulations effectuées,
-les difficultés rencontrées et les vérifications disponibles.
+J’y présente les objectifs, les manipulations effectuées,
+les difficultés rencontrées et les vérifications réalisées.
 
 ## Travaux présentés
 
 | Thème | Contenu |
 |---|---|
-| Debian | Utilisateurs, groupes et configuration réseau |
+| Debian | Gestion des utilisateurs et des groupes, configuration réseau |
 | SSH | Administration à distance et configuration du service |
-| Arch Linux | Installation et résolution des difficultés rencontrées |
+| Arch Linux | Installation du système et résolution des difficultés rencontrées |
 | Gentoo | Étapes d’installation et configuration du système |
 | Timeshift | Création d’instantanés et étude de la restauration |
 
-Les comptes rendus seront ajoutés progressivement.
+Les comptes rendus sont ajoutés progressivement.
 
-## Démarche de documentation
+## Démarche
 
-Pour chaque TP, je distingue :
+Chaque compte rendu présente :
 
-- les actions réalisées ;
-- les résultats observés et les preuves conservées ;
-- les erreurs rencontrées et les corrections effectivement vérifiées ;
-- les points restant à tester ou à approfondir.
+- l’objectif et l’environnement technique ;
+- les configurations et les manipulations réalisées ;
+- les difficultés rencontrées et les corrections apportées ;
+- les tests effectués et les résultats observés ;
+- les limites et les points restant à vérifier.
 
-Une procédure décrite ne constitue pas, à elle seule, la preuve
-de sa réussite. Lorsqu’une validation manque, je le précise.
+Je distingue les résultats vérifiés des hypothèses de diagnostic.
+Lorsqu’une validation est incomplète, je le précise.
 
-## Contexte
+## Objectif
 
-Ces exercices ont été réalisés dans un environnement de formation.
-Ils sont distincts de mes premières expérimentations personnelles,
-documentées dans mes autres dépôts.
-
-Les configurations présentées correspondent au contexte de chaque TP.
-Elles ne constituent pas des recommandations directement applicables
-à un environnement de production.
+Développer mes compétences en administration Linux et documenter
+une démarche reproductible : comprendre, configurer, diagnostiquer
+et vérifier.
