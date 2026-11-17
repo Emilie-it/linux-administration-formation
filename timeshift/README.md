@@ -61,36 +61,32 @@ il faut donc identifier le bon périphérique avant d’agir.
 ## 3. Détection du périphérique USB
 
 La clé est indiquée comme connectée dans VMware,
-mais je ne la retrouve pas dans la machine Debian.
+mais je ne la retrouve pas dans Debian.
 
 Je vérifie sa présence avec `lsusb`, puis je consulte
 les derniers messages du noyau avec `journalctl`.
 
-Je teste également :
+Je teste également un autre port USB, la reconnexion
+du périphérique et le changement de version
+du contrôleur USB virtuel.
 
-- un autre port USB ;
-- la reconnexion du périphérique à la VM ;
-- le passage du contrôleur USB virtuel de 2.0 à 3.2.
-
-Ces essais ne permettent pas de rendre la clé disponible.
-La cause exacte du problème n’est pas confirmée.
+Je soupçonne un problème de transmission du périphérique
+entre VMware et Debian, sans avoir confirmé la cause exacte.
 
 ## 4. Ajout d’un disque virtuel
 
-Pour poursuivre les manipulations, j’ajoute un disque
-virtuel SCSI de 10 Go.
+À la demande du formateur, je poursuis les manipulations
+avec un disque virtuel à la place de la clé USB.
 
-Je vérifie sa détection avec `lsblk` :
-il apparaît sous le nom `/dev/sdb`.
+J’ajoute un disque SCSI de 10 Go dans VMware,
+puis je vérifie sa détection avec `lsblk`.
+Il apparaît sous le nom `/dev/sdb`.
 
 J’ouvre ensuite `cfdisk` pour préparer son partitionnement.
 
-Cette solution permet de poursuivre le travail sur le stockage
-sans avoir résolu le problème de connexion USB.
-
-Un second disque virtuel reste toutefois dépendant du stockage
-de l’hôte VMware. Il ne constitue pas, à lui seul,
-une protection contre la panne de cet hôte.
+Ce changement de support permet de poursuivre le travail
+sur Timeshift. Il ne confirme pas la résolution
+du problème USB.
 
 ## 5. Installation et configuration de Timeshift
 
