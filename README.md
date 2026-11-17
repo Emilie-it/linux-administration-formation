@@ -11,7 +11,7 @@ les difficultés rencontrées et les vérifications réalisées.
 | Thème | Contenu |
 |---|---|
 | Debian | Gestion des utilisateurs et des groupes, configuration réseau |
-| SSH | Administration à distance et configuration du service |
+| [Debian et SSH](debian-ssh/README.md) | Configuration réseau et administration à distance |
 | Arch Linux | Installation du système et résolution des difficultés rencontrées |
 | Gentoo | Étapes d’installation et configuration du système |
 | Timeshift | Création d’instantanés et étude de la restauration |
